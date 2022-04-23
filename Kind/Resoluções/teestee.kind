@@ -1,0 +1,79 @@
+// Basic Exercises involving Bools
+
+// type Bool {
+//  true
+//  false
+//}
+
+// Negation
+// Returns the opposite of a Bool
+//neg(bb: Bool): Bool 
+  //case bb {
+    //false: true
+   // true: false
+//}
+//teestee:_
+//neg(false)
+
+
+ 
+ 
+//?n
+
+//And
+// Returns true if both inputs are true
+//and(a: Bool, b: Bool): Bool
+
+// case a{ 
+  // false: false 
+   //true:  case b{
+            //false: false
+            //true:  true
+//   }
+// }
+  
+   //teestee:_
+   //and(true, true)
+
+
+
+
+
+ // ?a
+
+// Or
+// Returs true if any input is true
+//or(a: Bool, b: Bool): Bool
+
+//case a{
+//  true: true
+//  false: case b{
+//          false: false
+//          true:  true
+//  }
+//}
+// teestee:_
+// or(false,true)
+
+// ?o
+
+// Equal
+// Returs true if both inputs are identical// retorna true se forem identicos
+
+eql(a: Bool, b: Bool): Bool
+
+case a{
+  false: case b{
+            false: true
+            true: false
+  }
+  true: case b{
+          false: false
+          true: true
+
+  }
+}
+teestee:_ 
+eql(true,true) //o que tem dentro do case A//
+//   a  -  b
+ // ?e
